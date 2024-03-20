@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Đọc dữ liệu
-df = pd.read_csv('udemy_courses.csv')
+df = pd.read_csv('Data/udemy_courses.csv')
 
 # Tạo TfidfVectorizer
 tfidf = TfidfVectorizer(stop_words='english')
